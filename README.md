@@ -25,7 +25,7 @@ The processor features a shared 16-bit data bus connecting all major components 
 
 ### Controller FSM
 
-![Controller FSM Diagram](docs/Controller_FSM_diagram.png)
+![Controller FSM Diagram](docs/Controller_FSM_diagram.svg)
 
 The FSM-based controller implements 10 states to manage instruction execution phases.
 ```
