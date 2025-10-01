@@ -17,16 +17,17 @@ This project implements a fully functional 16-bit multicycle CISC processor feat
 
 ## Architecture
 
-### Block Diagram
-```
-┌─────────────────────────────────────────────────────────┐
-│                    Data Bus [15:0]                       │
-├─────┬────────┬────────┬──────────┬────────┬─────────────┤
-│ PC  │   IR   │  TR1   │   TR2    │  ALU   │  Register   │
-│     │        │        │          │        │    File     │
-├─────┴────────┴────────┴──────────┴────────┴─────────────┤
-│              Memory & Controller                         │
-└─────────────────────────────────────────────────────────┘
+### Processor Block Diagram
+
+![Processor Block Diagram](docs/CPU_diagram.svg)
+
+The processor features a shared 16-bit data bus connecting all major components with multiplexer-based arbitration.
+
+### Controller FSM
+
+![Controller FSM Diagram](docs/Controller_FSM_diagram.png)
+
+The FSM-based controller implements 10 states to manage instruction execution phases.
 ```
 
 ### Major Components
