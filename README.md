@@ -257,11 +257,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Developed as part of Processor System Design course (AUG-DEC 2025)
 - Department of Electronic Systems Engineering, IISc Bangalore
-- Instructor: Mohammad Farukh Zafar
 
 ## References
 
-- Clifford E. Cummings, "Simulation and Synthesis Techniques for Asynchronous FIFO Design"
 - Basys3 FPGA Reference Manual
 - Xilinx Vivado Design Suite User Guide
 
