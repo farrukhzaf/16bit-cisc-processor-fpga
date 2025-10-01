@@ -1,0 +1,43 @@
+# Vivado
+*.jou
+*.log
+*.pb
+*.dcp
+*.debug
+*.zip
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/project_*
+vivado*.str
+fsm_encoding.os
+
+# Simulation
+*.wdb
+*.vcd
+*.fst
+*.fsdb
+xsim.dir/
+work/
+transcript
+*.wlf
+*.wcfg
+
+# Synthesis outputs
+*.bit
+*.bin
+*.ltx
+*.mmi
+*.prm
+*.rpt
+*.csv
+*.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*~
